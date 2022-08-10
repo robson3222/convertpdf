@@ -1,7 +1,7 @@
 {
   "name": "convertpdf",
   "version": "1.0.0",
-  "description": "",
+  "description": "converter p pdf",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,16 +16,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  },
-  "bin":"index.js",
-  "pkg":{
-    "assets":[
-      "view/**/*/*"
-    ],
-    "targets":[
-      "node14"
-    ]
   }
+  
 
 
 }
